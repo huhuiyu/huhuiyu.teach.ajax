@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vue+axios</title>
+</head>
+
+<body>
+
+  <div id="vue-app">
+    <input type="text" v-model="echo" placeholder="请输入数据">
+    <button v-on:click="send();">发送请求</button>
+    <div v-html="info"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.bootcss.com/qs/6.5.1/qs.min.js"></script>
+  <script src="js/axios.js"></script>
+</body>
+
+</html>
