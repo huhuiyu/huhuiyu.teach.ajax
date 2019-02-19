@@ -1,2 +1,1 @@
-# huhuiyu.teach.ajax
-ajax教程
+# ajax教程
